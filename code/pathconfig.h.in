@@ -1,0 +1,9 @@
+#ifndef _pathconfig_h
+#define _pathconfig_h
+#include <string>
+
+std::string filePath(const std::string& f_name)
+{ 
+    return "@IMGS_FOLDER@/"+f_name;    
+}
+#endif
